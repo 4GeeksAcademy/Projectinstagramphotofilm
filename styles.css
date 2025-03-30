@@ -1,0 +1,51 @@
+body {
+    background: gray;
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+header {
+    background: white;
+    padding: 10px;
+}
+
+header h1 {
+    margin: 0;
+}
+
+div.container {
+    width: 600px;
+    margin: auto;
+}
+
+div.post {
+    background: white;
+    margin-top: 10px;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+div.post-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+div.post-header h2 {
+    margin: 0;
+}
+
+span.date {
+    color: gray;
+}
+
+div.post img {
+    width: 100%;
+    display: block;
+    border-radius: 5px;
+}
+
+div.post p {
+    padding: 10px 0;
+    margin: 0;
+}
